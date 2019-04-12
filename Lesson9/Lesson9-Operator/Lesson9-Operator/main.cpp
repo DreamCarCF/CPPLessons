@@ -44,7 +44,6 @@ int main(int argc, const char * argv[]) {
 //    p+=Point(14, 14);
     
     Point *p = new Point(5,5);
-    
     (*p)+=Point(2,2);
     
     std::cout << p->getY()<<"\n";
